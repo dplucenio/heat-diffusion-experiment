@@ -2,8 +2,8 @@ from setuptools import setup, Extension
 import numpy
 import sys
 
-if sys.platform == 'linux'
-    extra_compile_args = ['-fopenmp'
+if sys.platform == 'linux':
+    extra_compile_args = ['-fopenmp']
     extra_link_args = ['-fopenmp']
 else:
     extra_compile_args = ['-/openmp']
