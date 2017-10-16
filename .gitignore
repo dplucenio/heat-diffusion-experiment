@@ -3,6 +3,7 @@
 __pycache__
 *.pyd
 *.o
+*.so
 *.cpp
 
 *.egg
@@ -34,3 +35,5 @@ TAGS
 
 .cache
 
+
+\.idea/
